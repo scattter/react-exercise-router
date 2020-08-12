@@ -5,9 +5,10 @@ class Header extends Component {
     render() {
         return (
             <div className='header'>
-                <Link className='link' to='/'>Home</Link>
-                <Link className='link inthis' to='/my-profile'>My Profile</Link>
-                <Link className='link inthis' to='/about-us'>About Us</Link>
+                <Link to='/'>Home</Link>
+                <Link className='inthis' to='/products'>Products</Link>
+                <Link className='inthis' to='/my-profile'>My Profile</Link>
+                <Link className='inthis' to='/about-us'>About Us</Link>
             </div>
         );
     }

@@ -1,6 +1,7 @@
 .app {
     width: 500px;
     height: 400px;
+    font-weight: 500;
     border: 1px solid #999;
     margin: 0 auto;
     margin-top: 30px;
@@ -13,7 +14,7 @@
     line-height: 50px;
     background-color: rgb(243, 238, 238);
 }
-.header .link{
+.header a{
     margin-right: 30px;
 }
 
@@ -24,9 +25,17 @@
     text-decoration: none;
 }
 
-.home p,.my-profile p,.about p{
+.home p,.my-profile p,.about p , .products p,.product p{
     margin-left: 30px;
 }
 .about p a {
+    color: red;
+}
+
+.products  .link{
+    margin-left: 30px;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
     color: red;
 }
